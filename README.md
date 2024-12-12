@@ -33,11 +33,9 @@ The system is aligned with **SDG 3: Good Health and Well-being**, which emphasiz
 ## Setup and Installation
 
 ### 1. **Clone the Repository**:
-         ```
          git clone https://github.com/lnce-dward/health-tracking-system.git
 
 ### 2. **Navigate to the Project Folder**:
-         ```
          cd health-tracking-system
 
 ### 3. **Build and Run**:
