@@ -9,7 +9,6 @@ This project addresses the **Sustainable Development Goal (SDG) 3: Good Health a
 ## Technologies
 
 - **Java**: Core language for implementing the system.
-- **MySQL**: Used for the backend database to store user health data.
 - **Object-Oriented Programming (OOP)**: Applied to create modular, maintainable, and reusable code.
 - **IntelliJ IDEA**: Recommended IDE for building and running the project.
 
