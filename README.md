@@ -92,5 +92,24 @@ This project directly aligns with **SDG 3: Good Health and Well-being**, which e
 ### Steps to Run
 
 1. **Clone the Repository**:
-   ```bash
+   ```
    git clone https://github.com/yourusername/health-tracking-system.git
+2. **Navigate to the Project Folder:
+   ```
+   cd health-tracking-system
+3. **Build and Run:
+   - Open the project in your Java IDE (e.g., IntelliJ IDEA).
+   - Build and run the HealthTrackingSystem.java file.
+4. **Database Setup:
+
+   - Create a MySQL database and run the SQL scripts found in the scripts folder to set up the necessary tables.
+   - Configure the database connection in the config/db.properties file.
+5. **Start Using the System:
+
+   - After running the project, you can register a new user or log in to track your physical and mental health.
+  
+     
+### Conclusion
+   - The Health Tracking System is a comprehensive solution that helps users monitor their health and well-being through easy-to-use tools for tracking key health metrics. By combining Object-  
+   - Oriented Programming principles with a strong focus on sustainability and well-being, this system aims to empower individuals to live healthier lives.
+
