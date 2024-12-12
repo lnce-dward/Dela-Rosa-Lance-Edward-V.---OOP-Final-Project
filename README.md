@@ -1,115 +1,59 @@
-# Dela-Rosa-Lance-Edward-V.---OOP-Final-Project
-My Final Project for the first semester of my second year in College as BSIT Student 
-
-
 # Health Tracking System
 
 ## Introduction
 
-The **Health Tracking System** is a comprehensive platform designed to help users monitor and improve their physical and mental well-being. The system allows users to track key health metrics such as weight, BMI, heart rate, mood, stress levels, and more. It empowers users to set fitness goals, monitor their progress, and reflect on their health journey through personalized insights.
+The Health Tracking System is designed to help individuals monitor and improve their physical and mental health. It provides a user-friendly platform where users can track key health metrics, including weight, BMI, blood pressure, heart rate, stress levels, mood, and more. The system is built using Object-Oriented Programming principles, ensuring maintainability, reusability, and scalability.
 
-The system incorporates **Object-Oriented Programming (OOP)** principles and integrates a relational **MySQL** database to store user data, including health records, profile information, and activity logs.
-
-This project aligns with **Sustainable Development Goal (SDG) 3: Good Health and Well-being**, as it encourages individuals to take charge of their health and fosters awareness about the importance of maintaining a healthy lifestyle.
+This project addresses the **Sustainable Development Goal (SDG) 3: Good Health and Well-being** by encouraging individuals to take control of their health and make informed decisions based on real-time data. By using the system, users can monitor their physical health progress, manage stress, and track their mood, ultimately promoting overall well-being.
 
 ## Technologies
 
-- **Programming Language**: Java
-- **Libraries**: JDK 8+, MySQL (for database integration)
-- **Database**: MySQL
-- **Development Tools**: IntelliJ IDEA, Git, GitHub
-- **Version Control**: Git
+- **Java**: Core language for implementing the system.
+- **MySQL**: Used for the backend database to store user health data.
+- **Object-Oriented Programming (OOP)**: Applied to create modular, maintainable, and reusable code.
+- **IntelliJ IDEA**: Recommended IDE for building and running the project.
 
 ## Features
 
-### 1. **User Profile Management**
-   - Users can create and manage their profiles.
-   - The system stores personal information such as name, date of birth, and health history.
-   - Profile updates are saved and fetched from the database.
-
-### 2. **Health Tracking**
-   - **Physical Health**: Track vital health metrics, including weight, height, heart rate, and BMI. Users can add entries to monitor their progress over time.
-   - **Mental Health**: Users can track mood, stress levels, and mental health symptoms. The system provides a journaling feature for reflection and mindfulness exercises.
-
-### 3. **Health Insights**
-   - The system provides personalized health insights based on entered data, including:
-     - **BMI Status**: Categorizes the user's weight status (e.g., underweight, normal weight, overweight, obese).
-     - **Blood Pressure Status**: Evaluates the user's blood pressure levels (e.g., normal, elevated, high).
-     - **Heart Rate Status**: Indicates if the user's heart rate is normal, low, or high based on the recorded data.
-
-### 4. **History and Data Visualization**
-   - Users can view a history of their physical health records, including weight, BMI, heart rate, and blood pressure.
-   - Data is stored with the date of entry for easy tracking over time.
-
-### 5. **Goal Setting and Tracking**
-   - Users can set fitness goals and track progress, including weight and exercise routines.
-
-### 6. **Sustainable Development Goal (SDG) Integration**
-   - The system supports **SDG 3: Good Health and Well-being** by promoting healthy habits and offering personalized health tracking tools that encourage better decision-making and overall wellness.
-
-## How It Works
-
-1. **User Registration**: 
-   - Users can sign up by providing their username, password, full name, and date of birth.
-   
-2. **Dashboard**: 
-   - After logging in, users are presented with a dashboard that offers different sections for **Physical Health**, **Mental Health**, and **Profile Management**.
-   
-3. **Data Entry**: 
-   - Users can enter physical health data (e.g., weight, height, heart rate) and mental health data (e.g., mood, stress levels).
-   
-4. **Health Insights**: 
-   - Based on the entered data, the system calculates and provides insights on BMI, heart rate, and blood pressure status.
-   
-5. **View History**: 
-   - Users can access a history of their physical health entries to track progress over time.
-   
-6. **Profile Updates**: 
-   - Users can update their profile details anytime from the Profile section.
-
-## Technologies Used
-
-- **Java**: For building the core logic and object-oriented design.
-- **MySQL**: For managing user data and health records.
-- **JDBC**: For database connectivity.
-- **OOP Principles**: The system utilizes core OOP principles such as inheritance, encapsulation, and polymorphism to manage health-related data efficiently.
+- **User Registration and Login**: Allows users to create an account, log in, and securely store personal health data.
+- **Physical Health Tracking**: Users can input and track their weight, height, blood pressure, heart rate, and calculate BMI.
+- **Mental Health Tracking**: Users can log their mood, stress levels, and track cognitive well-being.
+- **Health History**: Displays a history of previous health entries and allows users to view their progress over time.
+- **Database Integration**: Stores and retrieves health data from a MySQL database.
 
 ## SDG Integration
 
-This project directly aligns with **SDG 3: Good Health and Well-being**, which emphasizes the importance of health and well-being for all ages. By providing users with tools to track their physical and mental health, this system encourages individuals to take proactive steps towards improving their well-being. It supports the following:
+The system is aligned with **SDG 3: Good Health and Well-being**, which emphasizes the importance of promoting healthy lives and well-being for all at all ages. This project supports this goal by providing a platform for individuals to monitor and improve their physical and mental health, ultimately leading to better health outcomes.
 
-- **Monitoring health**: Users are encouraged to track their health metrics, including BMI, heart rate, and stress levels, to identify areas for improvement.
-- **Promoting healthy lifestyle choices**: The system helps users set fitness goals, track their progress, and visualize their health journey.
+### How SDG 3 is addressed:
+- **Physical Health Monitoring**: Users can track key physical health metrics such as weight, BMI, and blood pressure, enabling them to manage their physical well-being effectively.
+- **Mental Health Support**: By tracking mood and stress levels, the system helps users better understand and manage their mental health.
+- **Access to Health Data**: The system encourages users to regularly assess their health data, promoting proactive health management.
 
-## Instructions for Running the Program
+## Setup and Installation
 
-### Prerequisites
+### 1. **Clone the Repository**:
+         ```
+         git clone https://github.com/lnce-dward/health-tracking-system.git
 
-- **Java**: Ensure that JDK 8+ is installed on your machine.
-- **MySQL**: Install MySQL on your system and set up a local database.
-- **Database Configuration**: Modify the `config/db.properties` file to include your local MySQL database credentials.
+### 2. **Navigate to the Project Folder**:
+         ```
+         cd health-tracking-system
 
-### Steps to Run
+### 3. **Build and Run**:
+- Open the project in your Java IDE (e.g., IntelliJ IDEA).
+- Build and run the `HealthTrackingSystem.java` file.
 
-1. **Clone the Repository**:
-   ```
-   git clone https://github.com/yourusername/health-tracking-system.git
-2. **Navigate to the Project Folder:
-   ```
-   cd health-tracking-system
-3. **Build and Run:
-   - Open the project in your Java IDE (e.g., IntelliJ IDEA).
-   - Build and run the HealthTrackingSystem.java file.
-4. **Database Setup:
+### 4. **Database Setup**:
+- Create a MySQL database and run the SQL scripts found in the `scripts` folder to set up the necessary tables.
+- Configure the database connection in the `config/db.properties` file.
 
-   - Create a MySQL database and run the SQL scripts found in the scripts folder to set up the necessary tables.
-   - Configure the database connection in the config/db.properties file.
-5. **Start Using the System:
+### 5. **Start Using the System**:
+- After running the project, you can register a new user or log in to start tracking your physical and mental health.
 
-   - After running the project, you can register a new user or log in to track your physical and mental health.
-  
-     
-### Conclusion
-   - The Health Tracking System is a comprehensive solution that helps users monitor their health and well-being through easy-to-use tools for tracking key health metrics. By combining Object-  
-   - Oriented Programming principles with a strong focus on sustainability and well-being, this system aims to empower individuals to live healthier lives.
+## Conclusion
 
+The Health Tracking System is a comprehensive solution that helps users monitor their health and well-being through easy-to-use tools for tracking key health metrics. By combining Object-Oriented Programming principles with a strong focus on sustainability and well-being, this system aims to empower individuals to live healthier lives.
+
+
+         
