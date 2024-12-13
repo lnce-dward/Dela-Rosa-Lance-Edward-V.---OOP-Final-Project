@@ -18,7 +18,6 @@ This project addresses the **Sustainable Development Goal (SDG) 3: Good Health a
 - **Physical Health Tracking**: Users can input and track their weight, height, blood pressure, heart rate, and calculate BMI.
 - **Mental Health Tracking**: Users can log their mood, stress levels, and track cognitive well-being.
 - **Health History**: Displays a history of previous health entries and allows users to view their progress over time.
-- **Database Integration**: Stores and retrieves health data from a MySQL database.
 
 ## SDG Integration
 
