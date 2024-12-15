@@ -41,12 +41,40 @@ The system is aligned with **SDG 3: Good Health and Well-being**, which emphasiz
 - Open the project in your Java IDE (e.g., IntelliJ IDEA).
 - Build and run the `HealthTracker.java` file.
 
-### 4. **Start Using the System**:
-- After running the project, you can register a new user or log in to start tracking your physical and mental health.
+## How to Use the Health Tracking System
 
-## Conclusion
+1. **Start the Application**: Run the `HealthTracker.java` file to start the application.
 
-The Health Tracking System is a comprehensive solution that helps users monitor their health and well-being through easy-to-use tools for tracking key health metrics. By combining Object-Oriented Programming principles with a strong focus on sustainability and well-being, this system aims to empower individuals to live healthier lives.
+2. **Register a New User**:
+   - Choose option 1 from the main menu.
+   - Enter your username, password, full name, and date of birth as prompted.
 
+3. **Login**:
+   - Choose option 2 from the main menu.
+   - Enter your username and password.
 
-         
+4. **Using the Main Menu**:
+   After logging in, you'll see the following options:
+   1. Physical Health
+   2. Mental Health
+   3. View Physical Health History
+   4. View Mental Health History
+   5. Exit
+
+5. **Inputting Physical Health Data**:
+   - Select option 1 from the main menu.
+   - Enter your weight (in kg), height (in cm), blood pressure (systolic/diastolic), and heart rate (bpm) as prompted.
+
+6. **Inputting Mental Health Data**:
+   - Select option 2 from the main menu.
+   - Rate your mood (1-10), stress level (1-10), cognitive well-being (good/average/poor), and sleep quality (1-10) as prompted.
+
+7. **Viewing Health History**:
+   - Select option 3 to view your physical health history.
+   - Select option 4 to view your mental health history.
+
+8. **Exiting the Application**:
+   - Select option 5 from the main menu to log out.
+   - Choose option 3 from the initial menu to exit the application completely.
+
+Remember to input your health data regularly to get the most benefit from tracking your health over time.
